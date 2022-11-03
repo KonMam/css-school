@@ -1,0 +1,86 @@
+.item-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.list-element {
+    height: 250px;
+    width: 500px;
+    transition: 500ms;
+    position: absolute;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1%;
+    box-shadow: rgba(31, 31, 31, 0.25) 0px 13px 27px -5px, rgba(41, 41, 41, 0.3) 0px 8px 16px -8px;
+}
+
+.list-element:nth-child(1) {
+    background-image: url('dog1.jpg');
+}
+
+.list-element:nth-child(2) {
+    background-image: url('dog2.jpg');
+}
+
+.list-element:nth-child(3) {
+    background-image: url('dog3.jpg');
+}
+
+.list-element:nth-child(4) {
+    background-image: url('dog4.jpg');
+}
+
+.list-element:nth-child(5) {
+    background-image: url('dog5.jpg');
+}
+
+#middle {
+    z-index: 2;
+    height: 300px;
+    width: 600px;
+}
+
+#left, #right {
+    z-index: 1;
+}
+
+#far-left, #far-right {
+    z-index: 0;
+    height: 200px;
+    width: 400px;
+}
+
+#left {
+    transform: translateX(-100px);
+}
+
+#left:hover {
+    transform: translateX(-100px) scale(105%);
+}
+
+#right {
+    transform: translateX(100px);
+}
+
+#right:hover {
+    transform: translateX(100px) scale(105%);
+}
+
+#far-left {
+    transform: translateX(-200px);
+}
+
+#far-left:hover {
+    transform: translateX(-200px) scale(105%);
+}
+
+#far-right {
+    transform: translateX(200px);
+}
+
+#far-right:hover {
+    transform: translateX(200px) scale(105%);
+}

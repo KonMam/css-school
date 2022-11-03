@@ -1,9 +1,9 @@
+import RollingList from "./components/CascadingGalery/CascadingGalery"
+
 function App() {
 
   return (
-    <div className="App">
-
-    </div>
+        <RollingList/>
   )
 }
 
