@@ -1,0 +1,26 @@
+:root {
+    --x: 0px;
+    --y: 0px
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(at var(--x) var(--y), #bbb01a, #018b8b);
+}
+
+.nav-element {
+    font-family: 'Poor Story', cursive;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.wrapper:has(.nav-element:hover) > .nav-element:not(:hover) {
+    opacity: 0.5;
+    transition: 300ms;
+}

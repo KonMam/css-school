@@ -1,7 +1,7 @@
 import './index.css'
 
 
-export default function RollingList() {
+export default function CascadingGalery() {
 
     const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
 

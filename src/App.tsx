@@ -1,9 +1,9 @@
-import RollingList from "./components/CascadingGalery/CascadingGalery"
+import FollowingGradient from "./components/FollowingGradient/FollowingGradient"
 
 function App() {
 
   return (
-        <RollingList/>
+        <FollowingGradient/>
   )
 }
 
