@@ -21,7 +21,6 @@ export default function SomeGradient() {
                 <a className='nav-element' href="#">About</a>
                 <a className='nav-element' href="#">Contact</a>
             </div>
-            <div className="gradient"></div>
         </div>
     )
 }
